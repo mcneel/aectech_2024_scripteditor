@@ -13,11 +13,12 @@ jobs:
   hello_world:
     name: hello_world
     runs-on: ubuntu-latest
-    environment: yak
+    environment: yak_deploy
     steps:
       - name: say hi
         run: |
             echo "Hello World!"
+            export YAK_TOKEN= ${{ secrets.YAK_TOKEN }}
             if [ -z "${YAK_TOKEN}" ]; then
               echo "YAK_TOKEN not set or empty"
               exit 1
