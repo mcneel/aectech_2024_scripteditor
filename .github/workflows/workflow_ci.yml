@@ -12,8 +12,9 @@ jobs:
   #simple test
   hello_world:
     name: hello_world
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
     steps:
-      - name: say hi
+      - name: yak
         run: |
-            echo "Hello World!"
+            curl https://files.mcneel.com/yak/tools/latest/yak.exe -o yak.exe
+            .yak search camera
