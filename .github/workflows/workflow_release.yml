@@ -13,7 +13,9 @@ jobs:
   hello_world:
     name: hello_world
     runs-on: ubuntu-latest
-    environment: yak
+    environment: yak_deploy
+    env:
+      YAK_TOKEN: ${{ secrets.YAK_TOKEN }}
     steps:
       - name: say hi
         run: |
