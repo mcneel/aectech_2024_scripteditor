@@ -13,7 +13,14 @@ jobs:
   hello_world:
     name: hello_world
     runs-on: ubuntu-latest
+    environment: Yak
     steps:
       - name: say hi
         run: |
             echo "Hello World!"
+            if [ -z "${YAK_TOKEN}" ]; then
+              echo "YAK_TOKEN not set or empty"
+              exit 1
+            else
+              echo "YAK_TOKEN set and not empty"
+            fi
