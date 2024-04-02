@@ -17,4 +17,4 @@ jobs:
       - name: yak
         run: |
             curl https://files.mcneel.com/yak/tools/latest/yak.exe -o yak.exe
-            .yak search camera
+            ./yak search camera
