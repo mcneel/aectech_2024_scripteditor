@@ -13,7 +13,7 @@ jobs:
   hello_world:
     name: hello_world
     runs-on: ubuntu-latest
-    environment: Yak
+    environment: yak
     steps:
       - name: say hi
         run: |
