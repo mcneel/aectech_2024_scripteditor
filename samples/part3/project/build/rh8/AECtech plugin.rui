@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RhinoUI guid="6da0feaa-7890-4dbc-83bf-5e88b064ea2c" plug_in_guid="6da0feaa-7890-4dbc-83bf-5e88b064ea2c" major_ver="8" minor_ver="0" localize="False" default_language_id="1033">
+  <extend_rhino_menus />
+  <menus />
+  <tool_bar_groups>
+    <tool_bar_group guid="6da0feaa-7890-4dbc-83bf-5e88b064ea2c" dock_bar_guid32="6da0feaa-7890-4dbc-83bf-5e88b064ea2c" dock_bar_guid64="6da0feaa-7890-4dbc-83bf-5e88b064ea2c"
+                                                active_tool_bar_group="6da0feaa-7890-4dbc-83bf-5e88b064ea2c" single_file="False" hide_single_tab="True">
+      <text>
+        <locale_1033>AECtech plugin</locale_1033>
+      </text>
+      <dock_bar_info visible="True"  floating="True" />
+      <tool_bar_group_item guid="6da0feaa-7890-4dbc-83bf-5e88b064ea2c" major_version="1" minor_version="1">
+        <text>
+          <locale_1033>AECtech plugin</locale_1033>
+        </text>
+        <tool_bar_id>6da0feaa-7890-4dbc-83bf-5e88b064ea2c</tool_bar_id>
+      </tool_bar_group_item>
+    </tool_bar_group>
+  </tool_bar_groups>
+  <tool_bars>
+    <tool_bar guid="6da0feaa-7890-4dbc-83bf-5e88b064ea2c" bitmap_id="6da0feaa-7890-4dbc-83bf-5e88b064ea2c" item_display_style="control_only">
+      <text>
+        <locale_1033>AECtech plugin</locale_1033>
+      </text>
+              <tool_bar_item guid="9bc20497-efbf-434a-957d-255e65fee9eb"
+            button_display_mode="control_only"
+            button_style="normal">
+            <text>
+                <locale_1033>BatchPrinting_Command</locale_1033>
+            </text>
+            <left_macro_id>9bc20497-efbf-434a-957d-255e65fee9eb</left_macro_id>
+        </tool_bar_item>
+
+    </tool_bar>
+  </tool_bars>
+  <macros>
+          <macro_item guid="9bc20497-efbf-434a-957d-255e65fee9eb" bitmap_id="9bc20497-efbf-434a-957d-255e65fee9eb">
+        <text>
+          <locale_1033>Macro.BatchPrinting_Command</locale_1033>
+        </text>
+        <tooltip>
+          <locale_1033>BatchPrinting_Command</locale_1033>
+        </tooltip>
+        <help_text>
+          <locale_1033>BatchPrinting_Command</locale_1033>
+        </help_text>
+        <button_text>
+          <locale_1033>BatchPrinting_Command</locale_1033>
+        </button_text>
+        <menu_text>
+          <locale_1033>BatchPrinting_Command</locale_1033>
+        </menu_text>
+        <script>! _BatchPrinting_Command</script>
+      </macro_item>
+
+  </macros>
+  <icons>
+          <icon guid="9bc20497-efbf-434a-957d-255e65fee9eb">
+        <light><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="none" stroke="#00ff00" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 0 1 2 2v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-6a2 2 0 0 1 2-2m14 0V9a2 2 0 0 0-2-2M5 11V9a2 2 0 0 1 2-2m0 0V5a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v2M7 7h10"/></svg></light>
+        <dark><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="none" stroke="#00ff00" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 0 1 2 2v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-6a2 2 0 0 1 2-2m14 0V9a2 2 0 0 0-2-2M5 11V9a2 2 0 0 1 2-2m0 0V5a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v2M7 7h10"/></svg></dark>
+      </icon>
+      <icon guid="6da0feaa-7890-4dbc-83bf-5e88b064ea2c">
+        <light><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="none" stroke="#00ff00" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m10 20l4-16m4 4l4 4l-4 4M6 16l-4-4l4-4"/></svg></light>
+        <dark><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="none" stroke="#00ff00" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m10 20l4-16m4 4l4 4l-4 4M6 16l-4-4l4-4"/></svg></dark>
+      </icon>
+
+  </icons>
+  <bitmaps />
+</RhinoUI>
