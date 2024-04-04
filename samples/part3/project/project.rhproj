@@ -1,0 +1,59 @@
+{
+  "id": "6da0feaa-7890-4dbc-83bf-5e88b064ea2c",
+  "identity": {
+    "name": "AECtech plugin",
+    "version": "0.1",
+    "publisher": {
+      "email": "pedro@mcneel.com",
+      "name": "Pedro Cortes",
+      "company": "McNeel Europe"
+    },
+    "description": "This is the first project I publish in AECtech workship",
+    "copyright": "Copyright \u00A9 2024 Pedro Cortes",
+    "license": "MIT"
+  },
+  "settings": {
+    "buildPath": "build/",
+    "buildTarget": {
+      "appName": "Rhino3D",
+      "appVersion": {
+        "major": 8
+      },
+      "title": "Rhino3D (8.*)",
+      "slug": "rh8"
+    },
+    "publishTarget": {
+      "title": "McNeel Yak Server"
+    }
+  },
+  "codes": [
+    {
+      "id": "9bc20497-efbf-434a-957d-255e65fee9eb",
+      "language": {
+        "id": "*.*.csharp",
+        "version": "*.*.*"
+      },
+      "title": "BatchPrinting_Command",
+      "uri": "file:///C:/Users/pedro.cortes/Desktop/McNeel2024/03_ScriptEditorWS/aectech_2024_scripteditor/samples/part2/BatchPrinting_Command.cs"
+    },
+    {
+      "type": "components",
+      "id": "9ebdcfcb-533f-4182-b1fc-60c1c43e939b",
+      "language": {
+        "id": "*.gh1.grasshopper",
+        "version": "1.*.*"
+      },
+      "title": "BatchPrinting_Component.gh",
+      "uri": "file:///C:/Users/pedro.cortes/Desktop/McNeel2024/03_ScriptEditorWS/aectech_2024_scripteditor/samples/part2/BatchPrinting_Component.gh",
+      "scripts": [
+        {
+          "id": "39ac572d-2536-4b27-b0cc-d9cff0b10583",
+          "name": "BatchPrinting",
+          "nickname": "BP",
+          "description": "Perform a printing operation over different files",
+          "subcat": "BatchOps"
+        }
+      ]
+    }
+  ]
+}
