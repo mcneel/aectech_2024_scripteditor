@@ -1,9 +1,9 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{6da0feaa-7890-4dbc-83bf-5e88b064ea2c}") = "AECtech plugin", "AECtech plugin\AECtech plugin.csproj", "{d52fc16f-4822-4ed2-abad-536e678943d0}"
+Project("{6da0feaa-7890-4dbc-83bf-5e88b064ea2c}") = "AECtech plugin", "AECtech plugin\AECtech plugin.csproj", "{1c38a3bc-0339-4601-9bbc-ac39675bbe15}"
 EndProject
-Project("{6da0feaa-7890-4dbc-83bf-5e88b064ea2c}") = "AECtech plugin.GH", "AECtech plugin.GH\AECtech plugin.GH.csproj", "{81316683-34e2-49dd-9dc9-4fcba121740d}"
+Project("{6da0feaa-7890-4dbc-83bf-5e88b064ea2c}") = "AECtech plugin.GH", "AECtech plugin.GH\AECtech plugin.GH.csproj", "{684cc3b4-b7b8-498f-bb2b-54fb0726c85f}"
 EndProject
 
 Global
@@ -12,10 +12,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{d52fc16f-4822-4ed2-abad-536e678943d0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-{d52fc16f-4822-4ed2-abad-536e678943d0}.Release|Any CPU.Build.0 = Release|Any CPU
-{81316683-34e2-49dd-9dc9-4fcba121740d}.Debug|Any CPU.Build.0 = Debug|Any CPU
-{81316683-34e2-49dd-9dc9-4fcba121740d}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1c38a3bc-0339-4601-9bbc-ac39675bbe15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+{1c38a3bc-0339-4601-9bbc-ac39675bbe15}.Release|Any CPU.Build.0 = Release|Any CPU
+{684cc3b4-b7b8-498f-bb2b-54fb0726c85f}.Debug|Any CPU.Build.0 = Debug|Any CPU
+{684cc3b4-b7b8-498f-bb2b-54fb0726c85f}.Release|Any CPU.Build.0 = Release|Any CPU
 
 	EndGlobalSection
 EndGlobal

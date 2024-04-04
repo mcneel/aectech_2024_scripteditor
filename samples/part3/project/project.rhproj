@@ -2,7 +2,7 @@
   "id": "6da0feaa-7890-4dbc-83bf-5e88b064ea2c",
   "identity": {
     "name": "AECtech plugin",
-    "version": "0.1",
+    "version": "0.2",
     "publisher": {
       "email": "pedro@mcneel.com",
       "name": "Pedro Cortes",
@@ -10,7 +10,17 @@
     },
     "description": "This is the first project I publish in AECtech workship",
     "copyright": "Copyright \u00A9 2024 Pedro Cortes",
-    "license": "MIT"
+    "license": "MIT",
+    "image": {
+      "light": {
+        "type": "svg",
+        "data": "PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxZW0iIGhlaWdodD0iMWVtIiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzAwZmYwMCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBzdHJva2Utd2lkdGg9IjIiIGQ9Im0xMCAyMGw0LTE2bTQgNGw0IDRsLTQgNE02IDE2bC00LTRsNC00Ii8\u002BPC9zdmc\u002B"
+      },
+      "dark": {
+        "type": "svg",
+        "data": "PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxZW0iIGhlaWdodD0iMWVtIiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzAwZmYwMCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBzdHJva2Utd2lkdGg9IjIiIGQ9Im0xMCAyMGw0LTE2bTQgNGw0IDRsLTQgNE02IDE2bC00LTRsNC00Ii8\u002BPC9zdmc\u002B"
+      }
+    }
   },
   "settings": {
     "buildPath": "build/",
@@ -34,7 +44,17 @@
         "version": "*.*.*"
       },
       "title": "BatchPrinting_Command",
-      "uri": "file:///C:/Users/pedro.cortes/Desktop/McNeel2024/03_ScriptEditorWS/aectech_2024_scripteditor/samples/part2/BatchPrinting_Command.cs"
+      "uri": "file:///C:/Users/pedro.cortes/Desktop/McNeel2024/03_ScriptEditorWS/aectech_2024_scripteditor/samples/part2/BatchPrinting_Command.cs",
+      "image": {
+        "light": {
+          "type": "svg",
+          "data": "PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxZW0iIGhlaWdodD0iMWVtIiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzAwZmYwMCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBzdHJva2Utd2lkdGg9IjIiIGQ9Ik0xOSAxMUg1bTE0IDBhMiAyIDAgMCAxIDIgMnY2YTIgMiAwIDAgMS0yIDJINWEyIDIgMCAwIDEtMi0ydi02YTIgMiAwIDAgMSAyLTJtMTQgMFY5YTIgMiAwIDAgMC0yLTJNNSAxMVY5YTIgMiAwIDAgMSAyLTJtMCAwVjVhMiAyIDAgMCAxIDItMmg2YTIgMiAwIDAgMSAyIDJ2Mk03IDdoMTAiLz48L3N2Zz4="
+        },
+        "dark": {
+          "type": "svg",
+          "data": "PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxZW0iIGhlaWdodD0iMWVtIiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzAwZmYwMCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBzdHJva2Utd2lkdGg9IjIiIGQ9Ik0xOSAxMUg1bTE0IDBhMiAyIDAgMCAxIDIgMnY2YTIgMiAwIDAgMS0yIDJINWEyIDIgMCAwIDEtMi0ydi02YTIgMiAwIDAgMSAyLTJtMTQgMFY5YTIgMiAwIDAgMC0yLTJNNSAxMVY5YTIgMiAwIDAgMSAyLTJtMCAwVjVhMiAyIDAgMCAxIDItMmg2YTIgMiAwIDAgMSAyIDJ2Mk03IDdoMTAiLz48L3N2Zz4="
+        }
+      }
     },
     {
       "type": "components",
