@@ -97,6 +97,15 @@
           "subcat": "BatchOps"
         }
       ]
+    },
+    {
+      "id": "913ca6e3-6142-40d7-9c39-e58f18e178bb",
+      "language": {
+        "id": "*.gh1.grasshopper",
+        "version": "1.*.*"
+      },
+      "title": "BatchPrinting_Context",
+      "uri": "BatchPrinting_Context_Component.ghx"
     }
   ]
 }
