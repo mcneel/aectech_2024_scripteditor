@@ -1,8 +1,6 @@
 # requirements: numpy
 
-import Rhino
 import rhinoscriptsyntax as rs
-import scriptcontext as sc
 import numpy as np
 from sklearn.cluster import KMeans
 
@@ -24,7 +22,7 @@ def create_random_points():
     # Create Point3d objects and add them to Rhino
     points = []
     for i in range(num_points):
-        point = Rhino.Geometry.Point3d(x_coords[i], y_coords[i], z_coords[i])
+        point = rs.CreatePoint(x_coords[i], y_coords[i], z_coords[i])
         points.append(point)
     
     # Convert points to numpy array for clustering
@@ -41,7 +39,6 @@ def create_random_points():
     for i in range(num_clusters):
         layer_name = "Cluster_" + str(i + 1)
         rs.AddLayer(layer_name)
-        # Assigning different colors to the layers
         color = [255, 0, 0] if i == 0 else [0, 255, 0] if i == 1 else [0, 0, 255]
         rs.LayerColor(layer_name, color)
         
@@ -50,9 +47,6 @@ def create_random_points():
         for point in cluster_points:
             point_id = rs.coerceguid(rs.AddPoint(point))
             rs.ObjectLayer(point_id, layer_name)
-
-    # Redraw Rhino viewport
-    sc.doc.Views.Redraw()
 
 if __name__ == "__main__":
     create_random_points()
