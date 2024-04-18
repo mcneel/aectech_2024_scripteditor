@@ -22,19 +22,27 @@
       <text>
         <locale_1033>AECtech plugin</locale_1033>
       </text>
-              <tool_bar_item guid="9bc20497-efbf-434a-957d-255e65fee9eb"
+              <tool_bar_item guid="24667d3f-22a1-4c2e-a230-1d99dd05df55"
             button_display_mode="control_only"
             button_style="normal">
             <text>
                 <locale_1033>BatchPrinting_Command</locale_1033>
             </text>
-            <left_macro_id>9bc20497-efbf-434a-957d-255e65fee9eb</left_macro_id>
+            <left_macro_id>24667d3f-22a1-4c2e-a230-1d99dd05df55</left_macro_id>
+        </tool_bar_item>
+        <tool_bar_item guid="913ca6e3-6142-40d7-9c39-e58f18e178bb"
+            button_display_mode="control_only"
+            button_style="normal">
+            <text>
+                <locale_1033>BatchPrinting_Context</locale_1033>
+            </text>
+            <left_macro_id>913ca6e3-6142-40d7-9c39-e58f18e178bb</left_macro_id>
         </tool_bar_item>
 
     </tool_bar>
   </tool_bars>
   <macros>
-          <macro_item guid="9bc20497-efbf-434a-957d-255e65fee9eb" bitmap_id="9bc20497-efbf-434a-957d-255e65fee9eb">
+          <macro_item guid="24667d3f-22a1-4c2e-a230-1d99dd05df55" bitmap_id="24667d3f-22a1-4c2e-a230-1d99dd05df55">
         <text>
           <locale_1033>Macro.BatchPrinting_Command</locale_1033>
         </text>
@@ -52,10 +60,28 @@
         </menu_text>
         <script>! _BatchPrinting_Command</script>
       </macro_item>
+      <macro_item guid="913ca6e3-6142-40d7-9c39-e58f18e178bb" bitmap_id="00000000-0000-0000-0000-000000000000">
+        <text>
+          <locale_1033>Macro.BatchPrinting_Context</locale_1033>
+        </text>
+        <tooltip>
+          <locale_1033>BatchPrinting_Context</locale_1033>
+        </tooltip>
+        <help_text>
+          <locale_1033>BatchPrinting_Context</locale_1033>
+        </help_text>
+        <button_text>
+          <locale_1033>BatchPrinting_Context</locale_1033>
+        </button_text>
+        <menu_text>
+          <locale_1033>BatchPrinting_Context</locale_1033>
+        </menu_text>
+        <script>! _BatchPrinting_Context</script>
+      </macro_item>
 
   </macros>
   <icons>
-          <icon guid="9bc20497-efbf-434a-957d-255e65fee9eb">
+          <icon guid="24667d3f-22a1-4c2e-a230-1d99dd05df55">
         <light><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="none" stroke="#00ff00" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 0 1 2 2v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-6a2 2 0 0 1 2-2m14 0V9a2 2 0 0 0-2-2M5 11V9a2 2 0 0 1 2-2m0 0V5a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v2M7 7h10"/></svg></light>
         <dark><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="none" stroke="#00ff00" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 0 1 2 2v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-6a2 2 0 0 1 2-2m14 0V9a2 2 0 0 0-2-2M5 11V9a2 2 0 0 1 2-2m0 0V5a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v2M7 7h10"/></svg></dark>
       </icon>
