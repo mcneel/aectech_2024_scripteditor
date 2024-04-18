@@ -9,10 +9,10 @@ env:
 
 jobs:
 
-  #pushes the yak package to artifacts
-  release:
-    name: release
-    runs-on: windows-latest
+  #simple test
+  check_yak_token:
+    name: check_yak_token
+    runs-on: ubuntu-latest
     environment: yak_deploy
     env:
       YAK_TOKEN: ${{ secrets.YAK_TOKEN }}
@@ -26,6 +26,16 @@ jobs:
             else
               echo "YAK_TOKEN set and not empty"
             fi
+
+  #pushes the yak package to artifacts
+  release:
+    name: release
+    runs-on: windows-latest
+    needs: check_yak_token
+    environment: yak_deploy
+    env:
+      YAK_TOKEN: ${{ secrets.YAK_TOKEN }}
+    steps:
       - name: checkout
         uses: actions/checkout@v4.1.1
       - name: get package file name
