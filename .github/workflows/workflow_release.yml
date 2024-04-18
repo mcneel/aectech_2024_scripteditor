@@ -44,11 +44,13 @@ jobs:
         run: |
           $dir = "samples\part3\project\build\rh8\"
           $filepath = Get-ChildItem -Path $dir -Filter *.yak |Select -First 1
-          echo "YakFile=$filepath" | Out-File -FilePath $env:GITHUB_ENV -Append
           echo $filepath
+          echo "YakFile=$filepath" | Out-File -FilePath $env:GITHUB_ENV -Append
+          
       - name: push to yak
         run: |
             curl https://files.mcneel.com/yak/tools/latest/yak.exe -o yak.exe
+            echo ${{env.YakFile}}
             ./yak push ${{env.YakFile}}
       - name: artifacts
         uses: actions/upload-artifact@v4.3.1
