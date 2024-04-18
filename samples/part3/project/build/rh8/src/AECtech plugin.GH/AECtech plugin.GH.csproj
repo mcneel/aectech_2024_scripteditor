@@ -3,7 +3,7 @@
     <TargetFramework>net48</TargetFramework>
     <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
     <AssemblyName>AECtech plugin.GH</AssemblyName>
-    <AssemblyVersion>0.2.20437.8874</AssemblyVersion>
+    <AssemblyVersion>0.2.20654.8874</AssemblyVersion>
     <TargetName>[[TARGET-NAME]]</TargetName>
   </PropertyGroup>
 
