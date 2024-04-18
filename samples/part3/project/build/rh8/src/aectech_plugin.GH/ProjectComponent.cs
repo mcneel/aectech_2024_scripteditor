@@ -25,7 +25,7 @@ namespace RhinoCodePlatform.Rhino3D.Projects.Plugin.GH
         name: "BatchPrinting",
         nickname: "BP",
         description: "Perform a printing operation over different files",
-        category: "AECtech plugin",
+        category: "aectech_plugin",
         subCategory: "BatchOps"
         )
     {
