@@ -16,8 +16,15 @@ jobs:
     steps:
       - name: checkout
         uses: actions/checkout@v4.1.1
+      - name: get name
+        run: |
+          cd samples/part3/project/build/rh8/
+          FILE=$(ls *.yak| head -1)
+          echo "YakFile=$FILE" >> $GITHUB_ENV
+          echo $FILE
       - name: artifacts
         uses: actions/upload-artifact@v4.3.1
         with:
           path: samples/part3/project/build/rh8/*.yak
+          name: env.YakFile
           retention-days: ${{ env.RETENTION_DAYS }}
