@@ -2,22 +2,22 @@
 # https://github.com/actions/virtual-environments/tree/main/images
 
 name: workflow release
-on: [workflow_dispatch]
+on: workflow_dispatch
 
 env:
   RETENTION_DAYS: 15
 
 jobs:
 
-  #simple test
-  hello_world:
-    name: hello_world
-    runs-on: ubuntu-latest
+  #pushes the yak package to artifacts
+  release:
+    name: release
+    runs-on: windows-latest
     environment: yak_deploy
     env:
       YAK_TOKEN: ${{ secrets.YAK_TOKEN }}
     steps:
-      - name: say hi
+      - name: check yak token
         run: |
             echo "Hello World!"
             if [ -z "${YAK_TOKEN}" ]; then
@@ -26,3 +26,21 @@ jobs:
             else
               echo "YAK_TOKEN set and not empty"
             fi
+      - name: checkout
+        uses: actions/checkout@v4.1.1
+      - name: get package file name
+        run: |
+          cd samples/part3/project/build/rh8/
+          FILE=$(ls *.yak| head -1)
+          echo "YakFile=$FILE" >> $GITHUB_ENV
+          echo $FILE
+      - name: push to yak
+        run: |
+            curl https://files.mcneel.com/yak/tools/latest/yak.exe -o yak.exe
+            ./yak push ${{env.YakFile}}
+      - name: artifacts
+        uses: actions/upload-artifact@v4.3.1
+        with:
+          path: samples/part3/project/build/rh8/*.yak
+          name: ${{env.YakFile}}
+          retention-days: ${{ env.RETENTION_DAYS }}

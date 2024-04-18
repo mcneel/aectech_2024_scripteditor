@@ -1,0 +1,111 @@
+{
+  "id": "6da0feaa-7890-4dbc-83bf-5e88b064ea2c",
+  "identity": {
+    "name": "AECtech plugin",
+    "version": "0.2",
+    "publisher": {
+      "email": "pedro@mcneel.com",
+      "name": "Pedro Cortes",
+      "company": "McNeel Europe"
+    },
+    "description": "This is the first project I publish in AECtech workship",
+    "copyright": "Copyright \u00A9 2024 Pedro Cortes",
+    "license": "MIT",
+    "image": {
+      "light": {
+        "type": "svg",
+        "data": "PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxZW0iIGhlaWdodD0iMWVtIiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzAwZmYwMCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBzdHJva2Utd2lkdGg9IjIiIGQ9Im0xMCAyMGw0LTE2bTQgNGw0IDRsLTQgNE02IDE2bC00LTRsNC00Ii8\u002BPC9zdmc\u002B"
+      },
+      "dark": {
+        "type": "svg",
+        "data": "PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxZW0iIGhlaWdodD0iMWVtIiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzAwZmYwMCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBzdHJva2Utd2lkdGg9IjIiIGQ9Im0xMCAyMGw0LTE2bTQgNGw0IDRsLTQgNE02IDE2bC00LTRsNC00Ii8\u002BPC9zdmc\u002B"
+      }
+    }
+  },
+  "settings": {
+    "buildPath": "build/",
+    "buildTarget": {
+      "appName": "Rhino3D",
+      "appVersion": {
+        "major": 8
+      },
+      "title": "Rhino3D (8.*)",
+      "slug": "rh8"
+    },
+    "publishTarget": {
+      "title": "McNeel Yak Server"
+    }
+  },
+  "codes": [
+    {
+      "id": "24667d3f-22a1-4c2e-a230-1d99dd05df55",
+      "language": {
+        "id": "*.*.csharp",
+        "version": "*.*.*"
+      },
+      "title": "BatchPrinting_Command",
+      "uri": "BatchPrinting_Command.cs",
+      "image": {
+        "light": {
+          "type": "svg",
+          "data": "PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxZW0iIGhlaWdodD0iMWVtIiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzAwZmYwMCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBzdHJva2Utd2lkdGg9IjIiIGQ9Ik0xOSAxMUg1bTE0IDBhMiAyIDAgMCAxIDIgMnY2YTIgMiAwIDAgMS0yIDJINWEyIDIgMCAwIDEtMi0ydi02YTIgMiAwIDAgMSAyLTJtMTQgMFY5YTIgMiAwIDAgMC0yLTJNNSAxMVY5YTIgMiAwIDAgMSAyLTJtMCAwVjVhMiAyIDAgMCAxIDItMmg2YTIgMiAwIDAgMSAyIDJ2Mk03IDdoMTAiLz48L3N2Zz4="
+        },
+        "dark": {
+          "type": "svg",
+          "data": "PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxZW0iIGhlaWdodD0iMWVtIiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzAwZmYwMCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBzdHJva2Utd2lkdGg9IjIiIGQ9Ik0xOSAxMUg1bTE0IDBhMiAyIDAgMCAxIDIgMnY2YTIgMiAwIDAgMS0yIDJINWEyIDIgMCAwIDEtMi0ydi02YTIgMiAwIDAgMSAyLTJtMTQgMFY5YTIgMiAwIDAgMC0yLTJNNSAxMVY5YTIgMiAwIDAgMSAyLTJtMCAwVjVhMiAyIDAgMCAxIDItMmg2YTIgMiAwIDAgMSAyIDJ2Mk03IDdoMTAiLz48L3N2Zz4="
+        }
+      }
+    },
+    {
+      "type": "components",
+      "id": "bfcd3f1f-b971-4179-a042-fc3f0938d18e",
+      "language": {
+        "id": "*.gh1.grasshopper",
+        "version": "1.*.*"
+      },
+      "title": "BatchPrinting_Context_Component.ghx",
+      "uri": "BatchPrinting_Context_Component.ghx",
+      "scripts": [
+        {
+          "id": "bfcd3f1f-b971-4179-a042-fc3f0938d18e",
+          "name": "BatchPrinting_Context",
+          "subcat": "BatchOps",
+          "image": {
+            "light": {
+              "type": "svg",
+              "data": "PHN2ZyB2ZXJzaW9uPSIxLjEiIHdpZHRoPSI0OCIgaGVpZ2h0PSI0OCIgdmlld0JveD0iMCAwIDQ4IDQ4IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwhLS1SaGlubyBnZW5lcmF0ZWQgU1ZHLS0\u002BPC9zdmc\u002B"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "components",
+      "id": "d28400f3-aef8-4b8c-b6f2-cfaa7e18e458",
+      "language": {
+        "id": "*.gh1.grasshopper",
+        "version": "1.*.*"
+      },
+      "title": "BatchPrinting_Component.gh",
+      "uri": "BatchPrinting_Component.gh",
+      "scripts": [
+        {
+          "id": "39ac572d-2536-4b27-b0cc-d9cff0b10583",
+          "name": "BatchPrinting",
+          "nickname": "BP",
+          "description": "Perform a printing operation over different files",
+          "subcat": "BatchOps"
+        }
+      ]
+    },
+    {
+      "id": "913ca6e3-6142-40d7-9c39-e58f18e178bb",
+      "language": {
+        "id": "*.gh1.grasshopper",
+        "version": "1.*.*"
+      },
+      "title": "BatchPrinting_Context",
+      "uri": "BatchPrinting_Context_Component.ghx"
+    }
+  ]
+}
