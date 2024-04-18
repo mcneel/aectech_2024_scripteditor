@@ -44,9 +44,8 @@ jobs:
         run: |
           $dir = "samples\part3\project\build\rh8\"
           $filepath = Get-ChildItem -Path $dir -Filter *.yak |Select -First 1
-          $file = Split-Path $filepath -leaf
-          echo $file
-          echo "YakFile=$file" | Out-File -FilePath $env:GITHUB_ENV -Append
+          echo $filepath
+          echo "YakFile=$filepath" | Out-File -FilePath $env:GITHUB_ENV -Append
           
       - name: push to yak
         run: |
