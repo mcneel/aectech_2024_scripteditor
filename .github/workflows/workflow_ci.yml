@@ -9,7 +9,7 @@ env:
 
 jobs:
 
-  #simple test
+  #pushes the yak package to artifacts
   ci:
     name: ci
     runs-on: ubuntu-latest
