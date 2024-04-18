@@ -51,8 +51,8 @@ jobs:
       - name: push to yak
         run: |
             curl https://files.mcneel.com/yak/tools/latest/yak.exe -o yak.exe
-            echo `"${{env.YakFile}}`"
-            ./yak push `"${{env.YakFile}}`"
+            echo '${{env.YakFile}}'
+            ./yak push '${{env.YakFile}}'
       - name: artifacts
         uses: actions/upload-artifact@v4.3.1
         with:
