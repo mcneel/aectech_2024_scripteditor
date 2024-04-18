@@ -10,16 +10,12 @@ env:
 jobs:
 
   #simple test
-  hello_world:
-    name: hello_world
-    runs-on: windows-latest
+  ci:
+    name: ci
+    runs-on: ubuntu-latest
     steps:
-      - name: yak
-        run: |
-            curl https://files.mcneel.com/yak/tools/latest/yak.exe -o yak.exe
-            ./yak search camera
       - name: artifacts
         uses: actions/upload-artifact@v4.3.1
         with:
-          path: src/samples/project/build/rh8/*.yak
+          path: samples/project/build/rh8/*.yak
           retention-days: ${{ env.RETENTION_DAYS }}
