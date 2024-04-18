@@ -1,7 +1,7 @@
 {
   "id": "6da0feaa-7890-4dbc-83bf-5e88b064ea2c",
   "identity": {
-    "name": "AECtech plugin",
+    "name": "aectech_plugin",
     "version": "0.2",
     "publisher": {
       "email": "pedro@mcneel.com",

@@ -6,12 +6,12 @@
     <tool_bar_group guid="6da0feaa-7890-4dbc-83bf-5e88b064ea2c" dock_bar_guid32="6da0feaa-7890-4dbc-83bf-5e88b064ea2c" dock_bar_guid64="6da0feaa-7890-4dbc-83bf-5e88b064ea2c"
                                                 active_tool_bar_group="6da0feaa-7890-4dbc-83bf-5e88b064ea2c" single_file="False" hide_single_tab="True">
       <text>
-        <locale_1033>AECtech plugin</locale_1033>
+        <locale_1033>aectech_plugin</locale_1033>
       </text>
       <dock_bar_info visible="True"  floating="True" />
       <tool_bar_group_item guid="6da0feaa-7890-4dbc-83bf-5e88b064ea2c" major_version="1" minor_version="1">
         <text>
-          <locale_1033>AECtech plugin</locale_1033>
+          <locale_1033>aectech_plugin</locale_1033>
         </text>
         <tool_bar_id>6da0feaa-7890-4dbc-83bf-5e88b064ea2c</tool_bar_id>
       </tool_bar_group_item>
@@ -20,7 +20,7 @@
   <tool_bars>
     <tool_bar guid="6da0feaa-7890-4dbc-83bf-5e88b064ea2c" bitmap_id="6da0feaa-7890-4dbc-83bf-5e88b064ea2c" item_display_style="control_only">
       <text>
-        <locale_1033>AECtech plugin</locale_1033>
+        <locale_1033>aectech_plugin</locale_1033>
       </text>
               <tool_bar_item guid="24667d3f-22a1-4c2e-a230-1d99dd05df55"
             button_display_mode="control_only"
