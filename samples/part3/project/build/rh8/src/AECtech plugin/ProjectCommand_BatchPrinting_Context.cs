@@ -6,15 +6,15 @@ using Rhino.Commands;
 namespace RhinoCodePlatform.Rhino3D.Projects.Plugin
 {
   [CommandStyle(Rhino.Commands.Style.ScriptRunner)]
-  public class ProjectCommand_BatchPrinting_Command : Command
+  public class ProjectCommand_BatchPrinting_Context : Command
   {
-    public Guid CommandId { get; } = new Guid("24667d3f-22a1-4c2e-a230-1d99dd05df55");
+    public Guid CommandId { get; } = new Guid("913ca6e3-6142-40d7-9c39-e58f18e178bb");
 
-    public ProjectCommand_BatchPrinting_Command() { Instance = this; }
+    public ProjectCommand_BatchPrinting_Context() { Instance = this; }
 
-    public static ProjectCommand_BatchPrinting_Command Instance { get; private set; }
+    public static ProjectCommand_BatchPrinting_Context Instance { get; private set; }
 
-    public override string EnglishName => "BatchPrinting_Command";
+    public override string EnglishName => "BatchPrinting_Context";
 
     protected override Rhino.Commands.Result RunCommand(RhinoDoc doc, RunMode mode)
     {
