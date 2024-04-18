@@ -16,7 +16,7 @@ namespace RhinoCodePlatform.Rhino3D.Projects.Plugin.GH
     public override Guid Id { get; } = new Guid("6da0feaa-7890-4dbc-83bf-5e88b064ea2c");
 
     public override string AssemblyName { get; } = "AECtech plugin.GH";
-    public override string AssemblyVersion { get; } = "0.2.20654.8874";
+    public override string AssemblyVersion { get; } = "0.2.21849.8875";
     public override string AssemblyDescription { get; } = "This is the first project I publish in AECtech workship";
     public override string AuthorName { get; } = "Pedro Cortes";
     public override string AuthorContact { get; } = "pedro@mcneel.com";
