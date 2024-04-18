@@ -26,5 +26,5 @@ jobs:
         uses: actions/upload-artifact@v4.3.1
         with:
           path: samples/part3/project/build/rh8/*.yak
-          name: env.YakFile
+          name: ${{env.YakFile}}
           retention-days: ${{ env.RETENTION_DAYS }}
