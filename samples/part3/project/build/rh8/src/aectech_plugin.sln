@@ -1,9 +1,9 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{6da0feaa-7890-4dbc-83bf-5e88b064ea2c}") = "aectech_plugin", "aectech_plugin\aectech_plugin.csproj", "{4a8adcbb-46f6-4ad0-ba69-58a636789a56}"
+Project("{6da0feaa-7890-4dbc-83bf-5e88b064ea2c}") = "aectech_plugin", "aectech_plugin\aectech_plugin.csproj", "{916086af-b5f9-4a9d-b366-cf29a0fcb0d7}"
 EndProject
-Project("{6da0feaa-7890-4dbc-83bf-5e88b064ea2c}") = "aectech_plugin.GH", "aectech_plugin.GH\aectech_plugin.GH.csproj", "{0e33f3a5-61f8-4562-9312-e60128eb9d1e}"
+Project("{6da0feaa-7890-4dbc-83bf-5e88b064ea2c}") = "aectech_plugin.GH", "aectech_plugin.GH\aectech_plugin.GH.csproj", "{d0d6920a-3f55-4512-9d08-17f8ab630794}"
 EndProject
 
 Global
@@ -12,10 +12,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{4a8adcbb-46f6-4ad0-ba69-58a636789a56}.Debug|Any CPU.Build.0 = Debug|Any CPU
-{4a8adcbb-46f6-4ad0-ba69-58a636789a56}.Release|Any CPU.Build.0 = Release|Any CPU
-{0e33f3a5-61f8-4562-9312-e60128eb9d1e}.Debug|Any CPU.Build.0 = Debug|Any CPU
-{0e33f3a5-61f8-4562-9312-e60128eb9d1e}.Release|Any CPU.Build.0 = Release|Any CPU
+		{916086af-b5f9-4a9d-b366-cf29a0fcb0d7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+{916086af-b5f9-4a9d-b366-cf29a0fcb0d7}.Release|Any CPU.Build.0 = Release|Any CPU
+{d0d6920a-3f55-4512-9d08-17f8ab630794}.Debug|Any CPU.Build.0 = Debug|Any CPU
+{d0d6920a-3f55-4512-9d08-17f8ab630794}.Release|Any CPU.Build.0 = Release|Any CPU
 
 	EndGlobalSection
 EndGlobal
